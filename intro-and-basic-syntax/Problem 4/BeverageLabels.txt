@@ -10,6 +10,7 @@ namespace BeverageLabels
     {
         static void Main(string[] args)
         {
+		//CSharpIntro&BasicSyntaxExercises
             var name = Console.ReadLine();
             var vol = int.Parse(Console.ReadLine());
             var energy = double.Parse(Console.ReadLine());
