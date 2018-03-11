@@ -10,12 +10,12 @@ namespace GitHubHomeWork
     {
         static void Main(string[] args)
         {
-            var a = int.Parse(Console.ReadLine());
-            var b = int.Parse(Console.ReadLine());
-            var c = int.Parse(Console.ReadLine());
-            var d = int.Parse(Console.ReadLine());
+            var firstFourNums = int.Parse(Console.ReadLine());
+            var secondFourNums = int.Parse(Console.ReadLine());
+            var thirdFourNums = int.Parse(Console.ReadLine());
+            var fourthFourNums = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"{a:d4} {b:d4} {c:d4} {d:d4}");
+            Console.WriteLine($"{firstFourNums:d4} {secondFourNums:d4} {thirdFourNums:d4} {fourthFourNums:d4}");
 
         }
     }
