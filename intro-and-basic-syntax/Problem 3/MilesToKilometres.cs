@@ -1,4 +1,5 @@
-﻿using System;
+﻿//CONFIRMED from yanabogdanova
+using System;
 
 namespace MilesToKilometres
 {
@@ -6,6 +7,7 @@ namespace MilesToKilometres
     {
         static void Main(string[] args)
         {
+            // Calculate miles to kilometres. 
             Console.WriteLine($"{double.Parse(Console.ReadLine()) * 1.60934:F2}");
         }
     }
